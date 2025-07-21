@@ -1,0 +1,45 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(./Screenshot\ 2025-05-20\ 145009.png) center/cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    background: rgba(0, 0, 0, .8);
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.container h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.container input{
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.container button{
+    width: 102%;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.container button:hover{
+    transform: scale(1.1);
+    background-color: lightskyblue;
+}
